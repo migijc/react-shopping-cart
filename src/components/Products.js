@@ -32,7 +32,7 @@ export default function Products(props){
                             handleButton={handleAddButton}
                             productName={response[props].product_title}
                             productImage={response[props].product_main_image_url}
-                            productPrice={response[props].sale_price}
+                            productPrice={response[props].sale_price.toFixed(2)}
                             key={+props}
                             />
                             allItems.push(newCard)
