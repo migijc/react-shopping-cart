@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-shopping-cart/static/css/main.cf0e8dd2.css",
+    "main.css": "/react-shopping-cart/static/css/main.1869b0f6.css",
     "main.js": "/react-shopping-cart/static/js/main.6f997777.js",
     "static/media/roboto-latin-900italic.woff": "/react-shopping-cart/static/media/roboto-latin-900italic.c20d916c1a1b094c1cec.woff",
     "static/media/roboto-latin-300italic.woff": "/react-shopping-cart/static/media/roboto-latin-300italic.bd5b7a13f2c52b531a2a.woff",
@@ -29,11 +29,11 @@
     "static/media/roboto-latin-900.woff2": "/react-shopping-cart/static/media/roboto-latin-900.870c8c1486f76054301a.woff2",
     "static/media/righteous-latin-400.woff2": "/react-shopping-cart/static/media/righteous-latin-400.ff971242700f520e3f61.woff2",
     "index.html": "/react-shopping-cart/index.html",
-    "main.cf0e8dd2.css.map": "/react-shopping-cart/static/css/main.cf0e8dd2.css.map",
+    "main.1869b0f6.css.map": "/react-shopping-cart/static/css/main.1869b0f6.css.map",
     "main.6f997777.js.map": "/react-shopping-cart/static/js/main.6f997777.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf0e8dd2.css",
+    "static/css/main.1869b0f6.css",
     "static/js/main.6f997777.js"
   ]
 }
