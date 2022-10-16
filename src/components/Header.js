@@ -7,7 +7,7 @@ export default function Header(props){
         <div id="header">
             <p className="pageTitle">Trends4Drop</p>
             <nav className="navBar">
-                <Link to="/">Home</Link>
+                <Link to="react-shopping-cart">Home</Link>
                 <Link to="products">Products</Link>
                 <Link to="shoppingCart" className="cart">
                     <div className="cartIconContainer">

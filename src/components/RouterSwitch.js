@@ -47,7 +47,7 @@ export default function RouterSwitch(){
         <BrowserRouter>
             <Header totalItems={items.length}/>
                 <Routes>
-                    <Route path="/" element={<HomePage/>}/>
+                    <Route path="react-shopping-cart" element={<HomePage/>}/>
                     <Route path="products" element={<Products handleAddClick={handleState}/>}/>
                     <Route path="shoppingcart" element={<ShoppingCart total={items} handleAddOne={addOne} handleRemoveOne={removeOne}/>}/>
                 </Routes>
