@@ -1,0 +1,246 @@
+@import url("../node_modules/font-awesome/css/font-awesome.min.css");
+@font-face {
+    font-family: "Font Awesome 6 Free";
+    src: url("../node_modules/font-awesome/css/font-awesome.min.css");
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: roboto;
+    background-color: rgb(235, 235, 235);
+    height: 100%;
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.productCard{
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 22rem;
+    border-radius: 10px;
+    border: 2px solid #dcdcdc;
+    padding: 3px;
+}
+
+.displayImage{
+    height: 16rem;
+    margin-top:2px;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+    
+}
+
+.price::before{
+    content: "$";
+    font-weight: bold;
+    font-size: 1.2rem;
+    color:  rgb(241 114 41);
+}
+
+.productsDisplay{
+    display: inline-grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    justify-items: center;
+    margin-top:2rem;
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+#header{
+    height: 5rem;
+    background-color: rgb(255, 255, 255);;
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    justify-content: space-around;
+    z-index: 1;
+    font-weight: bold;
+    box-shadow: 2px 2px 15px .3px rgb(66, 66, 66);
+}
+
+.pageTitle{
+    font-weight: 900;
+    margin-right: -5rem;
+    font-family: "righteous";
+    font-style: oblique;
+    color: rgb(241 114 41);
+}
+
+nav{
+    display: flex;
+    gap:2rem;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+
+.itemName{
+    text-align: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 16rem;
+}
+
+.productDetails{
+    background-color: white;
+    border-radius: 6px;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addToBagButton{
+    width: 90%;
+    border: none;
+    background-color: white;
+    height: 1.7rem;
+    margin-top: .4rem;
+    color: rgb(51, 51, 51);
+    font-weight: 900;
+    border-radius: 5px;
+    border: 2px solid rgb(241 114 41);
+    
+}
+
+.addToBagButton:hover{
+    background-color: rgb(199, 199, 199);
+}
+
+.shoppingCartContainer{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartIconContainer{
+    position: relative;
+}
+
+.itemsAmount{
+    position: absolute;
+    top: -0.85rem;
+    left: 1.15rem;
+    background-color: #4b4b4b;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+    font-weight: bold;
+    border: .5px solid #baaaaa;
+    box-sizing: border-box;
+    padding: .6rem;
+    color: white;
+}
+
+.productSeperator{
+    width: 80%;
+}
+
+.inBagImage{
+    width: 10rem;
+    border-radius: 15px;
+
+}
+
+.allItems{
+    width: 80vw;
+    position: relative;
+    margin-top: 6rem;
+
+}
+
+.productInBagContainer{
+    display: flex;
+    width: 80%;
+    position: relative;
+    align-items: center;
+    margin-bottom: 3px;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1.5rem;
+}
+
+
+.inBagItemName{
+    width: 60ch;
+   
+}
+
+.addOne,
+.removeOne{
+    height: 100%;
+    width: 1.9rem;
+    background-color: #4b4b4b;
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 900;
+    
+}
+
+.currentQuantity{
+    width: 2.5rem;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+    box-shadow: inset 0px 0px 2px black;
+}
+
+.quantitySelector{
+    width: max-content;
+    height: 1.5rem;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.inBagCenterSec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:4rem;
+}
+
+.totalPerItem{
+   
+    font-weight: bold;
+}
+
+.cartPageTitle,
+.productsPageTitle{
+    color: rgb(61, 61, 61);
+    text-align: center;
+    font-size: 35px;
+}
+
+.productsPageContainer{
+    margin-top: 7rem;
+}
